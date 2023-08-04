@@ -31,7 +31,9 @@ II. MATHEMATICAL FRAMEWORK
 A. Compact Representation
 
 Let the proposed Ada-Act activation function be mathematically defined as:
+
 g(x) = k0 + k1x (1)
+
 where the coefficients k0, k1 and k2 are learned during training
 via back-propagation of error gradients.
 For the purpose of demonstration, consider a feed-forward
@@ -45,18 +47,22 @@ the biases applied to the nodes of layer Li−1, and let the
 activations of layer L0 be the input features of the training
 examples. Finally, let K denote the column matrix containing
 the equation coefficients: 
+
 k0
 k1
 k2
 
+
 and let t denote the number of
 training examples being taken in one batch. Then the forwardpropagation equations will be:
+
 z1 = a0 × w1 + b1
 a1 = g(z1)
 z2 = a1 × w2 + b2
 a2 = g(z2)
 z3 = a2 × w3 + b3
 a3 = Sof tmax(z3)
+
 where × denotes the matrix multiplication operation and
 Sof tmax() denotes the Softmax activation function.
 For back-propagation, let the loss function used in this
@@ -65,6 +71,7 @@ denote the gradient matrix of the loss with respect to the matrix
 fi
 , where f can be substituted with z, a, b, or w. and let there
 be matrices dK2 and dK1 of dimension 3×1. Then the backpropagation equations will be:
+
 dz3 = a3 − y
 dw3 =
 1
@@ -112,7 +119,6 @@ a
 T
 0 × dz1
 db1 = avgcol(dz1)
-hr@happymonk.co
 dK1 =
 
 
