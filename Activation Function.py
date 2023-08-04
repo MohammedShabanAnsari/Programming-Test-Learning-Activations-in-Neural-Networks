@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 
 # Load the Iris dataset
-iris = load_iris()
+iris = load_iris() 
 X = iris.data
 y = iris.target
 
