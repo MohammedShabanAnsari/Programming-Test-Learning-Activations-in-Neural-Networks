@@ -160,6 +160,7 @@ epochs, final parameter values at the end of training, train
 vs test loss, train and test accuracy, F1-Score, plot of
 the loss function vs. epochs, Code base hosted on github
 linked in the report)–Maximum 3 pages
+
 • Grid search/brute force NOT allowed
 
 • Data Sets for experiments and results: Bank-Note (Intern-
