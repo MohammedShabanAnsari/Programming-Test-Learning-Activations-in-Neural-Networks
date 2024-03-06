@@ -149,3 +149,22 @@ b2 = b2 − α.db2
 w3 = w3 − α.dw3
 b3 = b3 − α.db3
 K = K − α.dK
+
+III. EXPECTED RESULTS
+
+• A technical report containing implementation details (al-
+gorithm, initial settings such as sampling the parameters
+
+k0, k1 from some distribution, parameter updates on
+epochs, final parameter values at the end of training, train
+vs test loss, train and test accuracy, F1-Score, plot of
+the loss function vs. epochs, Code base hosted on github
+linked in the report)–Maximum 3 pages
+• Grid search/brute force NOT allowed
+
+• Data Sets for experiments and results: Bank-Note (Intern-
+ship Candidates)
+
+• Data Sets for experiments and results: Bank-Note, Iris,
+Wisconsin Breast Cancer, MNIST (Junior Data Scientist
+Positions)
